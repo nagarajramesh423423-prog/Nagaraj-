@@ -1,0 +1,16 @@
+import pandas as pd
+df = pd.DataFrame({'A':[10,11],'B':[13,14]})
+print(df)
+print(df.reindex([1,0]))
+
+
+
+
+
+
+   A B
+0 10 13
+1 11 14
+   A B
+1 11 14
+0 10 13
