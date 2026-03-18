@@ -1,0 +1,14 @@
+x = [3, 5, 7, 9]
+y = [1, 2, 9, 10]
+n = len(x)
+mx = sum(x)/n
+my = sum(y)/n
+b1 = sum((x[i]-mx)*(y[i]-my) for i in range(n)) / sum((x[i]-mx)**2 for i in range(n))
+b0 = my - b1*mx
+print(b0, b1)
+
+
+
+
+
+-4.699 1.7
