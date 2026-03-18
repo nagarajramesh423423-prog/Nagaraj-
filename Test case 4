@@ -1,0 +1,16 @@
+text = "Data Science"
+print(text.upper())
+f = open("sample.txt", "w")
+f.write(text)
+f.close()
+f = open("sample.txt", "r")
+print(f.read())
+f.close()
+
+
+
+
+
+
+DATA SCIENCE
+Data Science
