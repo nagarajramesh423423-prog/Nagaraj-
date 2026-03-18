@@ -1,0 +1,19 @@
+lst = [4, 5, 6]
+tup = (1, 2, 4)
+sett = {7, 8, 9}
+dict1 = {"d": 30, "e": 20}
+lst.append(3)
+sett.add(10)
+dict1["f"] = 10
+print(lst)
+print(tup)
+print(sett)
+print(dict1)
+
+
+
+
+[4, 5, 6, 3]
+(1, 2, 4)
+{7, 8, 9, 10}
+{'d': 30, 'e': 20, 'f': 10}
