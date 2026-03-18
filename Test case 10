@@ -1,0 +1,13 @@
+import numpy as np
+arr = np.array([[10,11],[12,13]])
+print(arr)
+print(arr.shape)
+
+
+
+
+
+
+[[10 11]
+ [12 13]]
+(2, 2)
